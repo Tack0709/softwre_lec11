@@ -4,8 +4,8 @@ from recursive import fibonacci
 class TestFibonacci(unittest.TestCase):
 
     def test_factotial(self):
-        val = fibonacci(4)
-        self.assertEqual(24,val)
+        val = fibonacci(10)
+        self.assertEqual(55,val)
 
     def test_factotial_a0(self):
         val = fibonacci(0)
